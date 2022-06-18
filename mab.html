@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Add location</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+       crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="module" src="googlemab.js"></script>
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="bloodbanks.html">Blood bank</a>
+                  <a class="nav-link" href="people.html">need's</a>
+              
+                </div>
+              </div>
+            </div>
+          </nav> 
+
+        <h3>please select your location</h3>
+        <!--The div element for the map -->
+        <div id="map"></div>
+    
+        <!-- 
+         The `defer` attribute causes the callback to execute after the full HTML
+         document has been parsed. For non-blocking uses, avoiding race conditions,
+         and consistent behavior across browsers, consider loading using Promises
+         with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+        -->
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+          defer></script>
+      </body>
+</html>

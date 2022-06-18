@@ -1,0 +1,30 @@
+
+
+
+.card{
+    margin-top: 5%;
+   
+   
+   
+   
+}
+body{
+   
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+   
+   
+}
+
+h2,h3{
+    align-items: center;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
