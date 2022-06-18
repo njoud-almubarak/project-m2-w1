@@ -2,6 +2,13 @@
 
 "Haima" blood donation website ..
 
+About of website:
+We try in our site to help people in need of blood to get it as soon as possible, 
+and we help those who want to donate blood to reach those who need it..
+
+
+
+website link:
 https://njoud-almubarak.github.io/project-m2-w1/
 
 
